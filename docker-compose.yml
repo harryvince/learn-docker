@@ -1,0 +1,17 @@
+version: '1'
+services:
+  frontend: 
+    build: Frontend
+    ports: 
+      - "8040:8040"
+    environment:
+      PORT: 8040
+      BACKEND: http://backend:8080
+    links:
+      - backend
+  backend:
+    build: Backend
+    environment:
+      PORT: 8080
+    ports:
+      - "8080:8080"
