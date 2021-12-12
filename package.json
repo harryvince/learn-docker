@@ -1,0 +1,25 @@
+{
+  "name": "learn-docker",
+  "version": "1.0.0",
+  "description": "Quick API Site to use docker containers",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryvince/learn-docker.git"
+  },
+  "author": "Harry Vince",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harryvince/learn-docker/issues"
+  },
+  "homepage": "https://github.com/harryvince/learn-docker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
