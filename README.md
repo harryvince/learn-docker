@@ -13,6 +13,7 @@ This is a repository dedicated to my learning of the docker software and how to 
 2. Navigate into the repository in Terminal/Powershell.
 3. Next Enter in the following code `docker-compose up --build`
 4. You can check your containers are up by seeing the following in your CMD/Powershell window:
+<br>
 backend_1   | App listening on http://localhost:8080
 <br>
 frontend_1  | App listening on http://localhost:8040
